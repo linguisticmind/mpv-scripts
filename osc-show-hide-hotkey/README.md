@@ -25,3 +25,7 @@ Achieved by cycling <code>[osc-visibility](https://mpv.io/manual/master/#on-scre
 </table>
 
 [Changing default keybindings](../README.md#Changing-default-keybindings)
+
+## Credits
+
+Based on information in this post: https://github.com/mpv-player/mpv/issues/4896#issuecomment-330458533

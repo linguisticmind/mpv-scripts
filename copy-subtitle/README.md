@@ -43,3 +43,7 @@ Download version for your operating system:<br>
 
 [copy-time](../copy-time)<br>
 [copy-time-in-seconds](../copy-time-in-seconds)
+
+## License
+
+[GNU General Public License v3.0](LICENSE)

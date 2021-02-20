@@ -47,3 +47,11 @@ Download version for your operating system:<br>
 
 [copy-time](../copy-time)<br>
 [copy-subtitle](../copy-subtitle)
+
+## Credits
+
+Modified from https://github.com/Arieleg/mpv-copyTime
+
+## License
+
+[GNU General Public License v3.0](LICENSE)
