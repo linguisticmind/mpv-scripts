@@ -6,7 +6,7 @@ A few useful scripts for [mpv player](https://github.com/mpv-player/mpv)
 
 Copy scripts into your `scripts` directory:
 
-Mac/Linux: `~/.mpv/scripts/` or `~/.config/mpv/scripts/`<br>
+Mac/Linux: `~/.config/mpv/scripts/`<br>
 Windows: `%APPDATA%\mpv\scripts\`
 
 More info on mpv file locations: https://mpv.io/manual/master/#files
