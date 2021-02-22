@@ -9,7 +9,7 @@ Copy scripts into your `scripts` directory:
 Mac/Linux: `~/.config/mpv/scripts/`<br>
 Windows: `%APPDATA%\mpv\scripts\`
 
-More info on mpv file locations: https://mpv.io/manual/master/#files
+More info on mpv file locations: https://mpv.io/manual/stable/#files
 
 ## Changing default keybindings
 
@@ -28,5 +28,5 @@ Mac/Linux: `~/.mpv/input.conf` or `~/.config/mpv/input.conf`<br>
 Windows: `%APPDATA%\mpv\input.conf`
 
 More info on mpv file locations and changing keybindings via the `input.conf` file:<br>
-https://mpv.io/manual/master/#files<br>
-https://mpv.io/manual/master/#input-conf
+https://mpv.io/manual/stable/#files<br>
+https://mpv.io/manual/stable/#input-conf

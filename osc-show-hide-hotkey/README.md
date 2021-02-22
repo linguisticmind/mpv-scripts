@@ -1,7 +1,7 @@
 # osc-show-hide-hotkey
 
 Shows and hides the OSC (On Screen Controller) with a keypress<br>
-Achieved by cycling <code>[osc-visibility](https://mpv.io/manual/master/#on-screen-controller-osc-visibility) auto</code> and `osc-visibility always`
+Achieved by cycling <code>[osc-visibility](https://mpv.io/manual/stable/#on-screen-controller-osc-visibility) auto</code> and `osc-visibility always`
 
 [Installation instructions](../README.md#Installation)
 
