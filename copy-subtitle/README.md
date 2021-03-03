@@ -5,6 +5,8 @@ Copies current subtitle line to clipboard
 Download version for your operating system:<br>
 **[Mac](./mac)&numsp;[Linux](./linux)&numsp;[Windows](./win)**
 
+[Video demonstation](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h8m16s)
+
 [Installation instructions](../README.md#Installation)
 
 ## Default keybindings
@@ -47,3 +49,7 @@ Download version for your operating system:<br>
 ## License
 
 [GNU General Public License v3.0](LICENSE)
+
+## Support Linguistic Mind
+
+Patreon: https://patreon.com/linguisticmind

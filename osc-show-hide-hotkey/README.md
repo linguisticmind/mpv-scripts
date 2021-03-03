@@ -3,6 +3,8 @@
 Shows and hides the OSC (On Screen Controller) with a keypress<br>
 Achieved by cycling <code>[osc-visibility](https://mpv.io/manual/stable/#on-screen-controller-osc-visibility) auto</code> and `osc-visibility always`
 
+[Video demonstation](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h7m17s)
+
 [Installation instructions](../README.md#Installation)
 
 ## Default keybindings
@@ -29,3 +31,7 @@ Achieved by cycling <code>[osc-visibility](https://mpv.io/manual/stable/#on-scre
 ## Credits
 
 Based on information in this post: https://github.com/mpv-player/mpv/issues/4896#issuecomment-330458533
+
+## Support Linguistic Mind
+
+Patreon: https://patreon.com/linguisticmind

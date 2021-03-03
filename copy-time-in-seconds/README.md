@@ -5,7 +5,11 @@ Copies current timecode in S.MS format to clipboard
 Download version for your operating system:<br>
 **[Mac](./mac)&numsp;[Linux](./linux)&numsp;[Windows](./win)**
 
+[Video demonstation](https://www.youtube.com/watch?v=b-5XOZpXZMg&t=1h9m37s)
+
 [Installation instructions](../README.md#Installation)
+
+## Default keybindings
 
 <table>
   <thead>
@@ -55,3 +59,7 @@ Modified from https://github.com/Arieleg/mpv-copyTime
 ## License
 
 [GNU General Public License v3.0](LICENSE)
+
+## Support Linguistic Mind
+
+Patreon: https://patreon.com/linguisticmind
