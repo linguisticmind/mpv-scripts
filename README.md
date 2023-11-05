@@ -19,7 +19,7 @@ The following scripts are available:
 
 ## Dependencies
 
-[`ab-loop-to-edl-range.lua`](ab-loop-to-edl-range), [`copy-filename.lua`](copy-filename), [`copy-subtitle.lua`](copy-subtitle) and [`copy-timestamp.lua`](copy-timestamp) require `xclip` or another clipboard command to copy text to clipboard. Refer to those scripts' `README`s  for more information.
+[`ab-loop-to-edl-segment.lua`](ab-loop-to-edl-segment), [`copy-filename.lua`](copy-filename), [`copy-subtitle.lua`](copy-subtitle) and [`copy-timestamp.lua`](copy-timestamp) require `xclip` or another clipboard command to copy text to clipboard. Refer to those scripts' `README`s  for more information.
 
 ## Installation
 
