@@ -1,6 +1,6 @@
 # ab-loop-to-edl-segment.lua
 
-Convert an A/B loop to an EDL segment.
+Convert an A/B loop to an [EDL](https://github.com/mpv-player/mpv/blob/master/DOCS/edl-mpv.rst) segment.
 
 ## Options
 
