@@ -30,7 +30,7 @@ The following scripts are available:
     git clone https://github.com/linguisticmind/mpv-scripts.git
     ```
 
-2. Symlink or copy the script files to `~/.config/mpv/mpv-scripts`:
+2. Symlink or copy the script files to `~/.config/mpv/scripts`:
 
     ```bash
     cd ~/.config/mpv/scripts
