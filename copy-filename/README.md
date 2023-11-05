@@ -1,6 +1,6 @@
-# copy-subtitle.lua
+# copy-filename.lua
 
-Copy current subtitle to clipboard.
+Copy current file's name or path to clipboard.
 
 ## Dependencies and running this script on different OSes
 
@@ -33,8 +33,7 @@ The following options are available for this script:
 | `console_message` | `true` |
 | `console_message_print_copied` | `true` |
 | `osd_message` | `true` |
-| `osd_message_print_copied` | `false` |
-| `osd_warning_nothing_to_copy` | `'always'` |
+| `osd_message_print_copied` | `true` |
 | `clipboard_command` | `'xclip -rmlastnl -selection clipboard'` |
 
 ## Keybindings
@@ -45,9 +44,9 @@ The following keybindings are available for this script:
 
 | Key | Name |
 | --- | --- |
-| `Ctrl+c` | `copy-subtitle-primary` |
-| `Ctrl+C` | `copy-subtitle-primary-ass` |
-| `Ctrl+Alt+c` | `copy-subtitle-secondary` |
+| `Ctrl+z` | `copy-filename-basename` |
+| `Ctrl+Alt+z` | `copy-filename-relative-path` |
+| `Ctrl+Z` | `copy-filename-absolute-path` |
 
 ## License
 
