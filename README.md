@@ -9,7 +9,7 @@ The following scripts are available:
 | --- | --- | 
 | [`ab-loop-seek-points.lua`](ab-loop-seek-points) | Seek to start and end points of an A/B loop. |
 | [`ab-loop-set-points.lua`](ab-loop-set-points) | Set start and end points of an A/B loop. |
-| [`ab-loop-to-edl-segment.lua`](ab-loop-to-edl-segment) | Convert an A/B loop to an EDL segment. |
+| [`ab-loop-to-edl-segment.lua`](ab-loop-to-edl-segment) | Convert an A/B loop to an [EDL](https://github.com/mpv-player/mpv/blob/master/DOCS/edl-mpv.rst) segment. |
 | [`clock.lua`](clock) | Show clock on the screen. |
 | [`copy-filename.lua`](copy-filename) | Copy current file's name or path to clipboard. |
 | [`copy-subtitle.lua`](copy-subtitle) | Copy current subtitle to clipboard. |
