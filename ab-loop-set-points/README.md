@@ -35,8 +35,8 @@ The following keybindings are available for this script:
 | `Alt+L` | `ab-loop-set-sub` |
 | `Alt+:` | `ab-loop-set-a-sub` |
 | `Alt+"` | `ab-loop-set-b-sub` |
-| `|` | `ab-loop-show` |
-| `Alt+|` | `ab-loop-clear` |
+| `\|` | `ab-loop-show` |
+| `Alt+\|` | `ab-loop-clear` |
 | `L` | `ab-loop-toggle` |
 
 ## License
