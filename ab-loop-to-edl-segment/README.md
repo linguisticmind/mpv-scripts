@@ -45,10 +45,10 @@ The following keybindings are available for this script:
 
 | Key | Name |
 | --- | --- |
-| `Ctrl+x` | `ab-loop-to-edl-range-copy-path` |
-| `Ctrl+Alt+x` | `ab-loop-to-edl-range-copy-path-alternate` |
-| `Ctrl+v` | `ab-loop-to-edl-range-write-path` |
-| `Ctrl+Alt+v` | `ab-loop-to-edl-range-write-path-alternate` |
+| `Ctrl+x` | `ab-loop-to-edl-segment-copy-path` |
+| `Ctrl+Alt+x` | `ab-loop-to-edl-segment-copy-path-alternate` |
+| `Ctrl+v` | `ab-loop-to-edl-segment-write-path` |
+| `Ctrl+Alt+v` | `ab-loop-to-edl-segment-write-path-alternate` |
 
 ## License
 

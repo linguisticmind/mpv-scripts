@@ -87,7 +87,7 @@ end
 
 --
 
-local function ab_loop_to_edl_range(arg)
+local function ab_loop_to_edl_segment(arg)
 
   arg = arg or {}
   arg.absolute_path = arg.absolute_path or false
@@ -127,45 +127,45 @@ end
 --
 
 mp.add_key_binding(
-  'Ctrl+x', 'ab-loop-to-edl-range-copy-path',
+  'Ctrl+x', 'ab-loop-to-edl-segment-copy-path',
   function()
     if options.absolute_path_by_default == false then
-      ab_loop_to_edl_range{absolute_path = false, copy_to_clipboard = true}
+      ab_loop_to_edl_segment{absolute_path = false, copy_to_clipboard = true}
     else
-      ab_loop_to_edl_range{absolute_path = true, copy_to_clipboard = true}
+      ab_loop_to_edl_segment{absolute_path = true, copy_to_clipboard = true}
     end
   end
 )
 
 mp.add_key_binding(
-  'Ctrl+Alt+x', 'ab-loop-to-edl-range-copy-path-alternate',
+  'Ctrl+Alt+x', 'ab-loop-to-edl-segment-copy-path-alternate',
   function()
     if options.absolute_path_by_default == false then
-      ab_loop_to_edl_range{absolute_path = true, copy_to_clipboard = true}
+      ab_loop_to_edl_segment{absolute_path = true, copy_to_clipboard = true}
     else
-      ab_loop_to_edl_range{absolute_path = false, copy_to_clipboard = true}
+      ab_loop_to_edl_segment{absolute_path = false, copy_to_clipboard = true}
     end
   end
 )
 
 mp.add_key_binding(
-  'Ctrl+v', 'ab-loop-to-edl-range-write-path',
+  'Ctrl+v', 'ab-loop-to-edl-segment-write-path',
   function()
     if options.absolute_path_by_default == false then
-      ab_loop_to_edl_range{absolute_path = false, append_to_file = true}
+      ab_loop_to_edl_segment{absolute_path = false, append_to_file = true}
     else
-      ab_loop_to_edl_range{absolute_path = true, append_to_file = true}
+      ab_loop_to_edl_segment{absolute_path = true, append_to_file = true}
     end
   end
 )
 
 mp.add_key_binding(
-  'Ctrl+Alt+v', 'ab-loop-to-edl-range-write-path-alternate',
+  'Ctrl+Alt+v', 'ab-loop-to-edl-segment-write-path-alternate',
   function()
     if options.absolute_path_by_default == false then
-      ab_loop_to_edl_range{absolute_path = true, append_to_file = true}
+      ab_loop_to_edl_segment{absolute_path = true, append_to_file = true}
     else
-      ab_loop_to_edl_range{absolute_path = false, append_to_file = true}
+      ab_loop_to_edl_segment{absolute_path = false, append_to_file = true}
     end
   end
 )
