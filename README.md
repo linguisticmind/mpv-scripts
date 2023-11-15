@@ -23,6 +23,8 @@ The following scripts are available:
 
 ## Installation
 
+[**Video tutorial**](https://youtu.be/rm1cSU88U2Y&t=3m12s)
+
 1. Clone this repository to a directory of your choice (e.g. `~/repos`):
 
     ```bash

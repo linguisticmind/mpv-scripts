@@ -21,6 +21,8 @@
 -- You should have received a copy of the GNU General Public License
 -- along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+-- Video tutorial: https://youtu.be/Pp3a5O5OI9U&t=3m36s
+
 -- version: 0.1.0
 
 local assdraw = require('mp.assdraw')

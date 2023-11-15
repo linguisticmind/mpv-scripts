@@ -14,6 +14,8 @@
 -- You should have received a copy of the GNU General Public License
 -- along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+-- Video tutorial: https://youtu.be/spf0cU3P3SI&t=9m40s
+
 -- version: 0.1.0
 
 local function seek_ab_loop_point(point)

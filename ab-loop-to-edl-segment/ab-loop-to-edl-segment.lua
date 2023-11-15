@@ -14,7 +14,9 @@
 -- You should have received a copy of the GNU General Public License
 -- along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
--- version: 0.1.0
+-- Video tutorial: https://youtu.be/L65AFhD5u9g
+
+-- version: 0.1.1
 
 require('mp.options')
 
