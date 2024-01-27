@@ -1,5 +1,5 @@
 -- osc-show-hide.lua - show or hide the on-screen controller (a script for mpv player)
--- copyright (c) 2023  Alex Rogers <https://github.com/linguisticmind>
+-- copyright (c) 2024  Alex Rogers <https://github.com/linguisticmind> and contributors <https://github.com/linguisticmind/mpv-scripts/graphs/contributors>
 --
 -- This program is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -16,9 +16,10 @@
 
 -- Video tutorial: https://youtu.be/Pp3a5O5OI9U&t=1m06s
 
--- version: 0.1.0
+-- version: 0.1.1
 
 require('mp.options')
+local utils = require('mp.utils')
 
 local options = {
   hidden_mode = 'never', -- Accepted values are `'never'` or `'auto'`.
@@ -27,7 +28,7 @@ local options = {
 read_options(options, 'osc_show_hide')
 
 local function osc_show_hide()
-  local visibility = require 'mp.utils'.shared_script_property_get('osc-visibility')
+  local visibility = utils.shared_script_property_get('osc-visibility')
   mp.commandv('script-message', 'osc-visibility', ((visibility == 'auto' or visibility == 'never') and 'always' or options.hidden_mode), 'no-osd')
 end
 
