@@ -26,11 +26,9 @@ local options = {
 
 read_options(options, 'osc_show_hide')
 
-local is_hidden = true
-
 local function osc_show_hide()
-  is_hidden = not is_hidden
-  mp.commandv('script-message', 'osc-visibility', (is_hidden and options.hidden_mode or 'always'), 'no-osd')
+  local visibility = require 'mp.utils'.shared_script_property_get('osc-visibility')
+  mp.commandv('script-message', 'osc-visibility', ((visibility == 'auto' or visibility == 'never') and 'always' or options.hidden_mode), 'no-osd')
 end
 
 mp.add_key_binding('/', 'osc-show-hide', osc_show_hide)
