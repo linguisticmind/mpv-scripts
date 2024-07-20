@@ -17,6 +17,8 @@ The following scripts are available:
 | [`osc-show-hide.lua`](osc-show-hide) | Show or hide the on-screen controller. |
 | [`play-before-and-after.lua`](play-before-and-after) | Play an interval before or after the current position. |
 
+<a href='https://ko-fi.com/linguisticmind'><img src='https://github.com/linguisticmind/linguisticmind/raw/master/res/kofi/kofi_donate_1.svg' alt='Support me on Ko-fi' height='48'></a>
+
 ## Dependencies
 
 [`ab-loop-to-edl-segment.lua`](ab-loop-to-edl-segment), [`copy-filename.lua`](copy-filename), [`copy-subtitle.lua`](copy-subtitle) and [`copy-timestamp.lua`](copy-timestamp) require `xclip` or another clipboard command to copy text to clipboard. Refer to those scripts' `README`s  for more information.

@@ -6,6 +6,8 @@ Video tutorial:
 
 [![Video tutorial](https://img.youtube.com/vi/SSL9wm2l5SQ/0.jpg)](https://youtu.be/SSL9wm2l5SQ&t=6m57s)
 
+<a href='https://ko-fi.com/linguisticmind'><img src='https://github.com/linguisticmind/linguisticmind/raw/master/res/kofi/kofi_donate_1.svg' alt='Support me on Ko-fi' height='48'></a>
+
 ## Dependencies and running this script on different OSes
 
 [**Video commentary**](https://youtu.be/SSL9wm2l5SQ&t=0:58)

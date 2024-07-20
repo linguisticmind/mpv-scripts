@@ -6,6 +6,8 @@ Video tutorial:
 
 [![Video tutorial](https://img.youtube.com/vi/Pp3a5O5OI9U/0.jpg)](https://youtu.be/Pp3a5O5OI9U&t=1m06s)
 
+<a href='https://ko-fi.com/linguisticmind'><img src='https://github.com/linguisticmind/linguisticmind/raw/master/res/kofi/kofi_donate_1.svg' alt='Support me on Ko-fi' height='48'></a>
+
 ## Options
 
 [**Video tutorial**](https://youtu.be/rm1cSU88U2Y&t=6m01s)
