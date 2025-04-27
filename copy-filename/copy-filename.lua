@@ -38,12 +38,16 @@ local function copy_filename(arg)
 
   local result
 
+  local function get_relative_path()
+    return mp.get_property('path'):gsub(mp.get_property('working-directory'):gsub('%%', '%%%%') .. '/', '', 1)
+  end
+
   if arg.filename_format == 'basename' then
     result = mp.get_property('filename')
   elseif arg.filename_format == 'relative_path' then
-    result = mp.get_property('path')
+    result = get_relative_path()
   elseif arg.filename_format == 'absolute_path' then
-    result = string.format('%s/%s', mp.get_property('working-directory'), mp.get_property('path')) 
+    result = string.format('%s/%s', mp.get_property('working-directory'), get_relative_path())
   end
 
   mp.commandv(
