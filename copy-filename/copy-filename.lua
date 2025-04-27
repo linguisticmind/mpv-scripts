@@ -16,7 +16,7 @@
 
 -- Video tutorial: https://youtu.be/SSL9wm2l5SQ&t=14m25s
 
--- version: 0.1.0
+-- version: 0.1.1
 
 require('mp.options')
 
