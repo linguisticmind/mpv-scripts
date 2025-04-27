@@ -1,5 +1,5 @@
 -- copy-filename.lua - copy current file's name or path to clipboard (a script for mpv player)
--- copyright (c) 2023  Alex Rogers <https://github.com/linguisticmind>
+-- copyright (c) 2025  Alex Rogers <https://github.com/linguisticmind>
 --
 -- This program is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
