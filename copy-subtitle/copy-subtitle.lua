@@ -31,16 +31,24 @@ local options = {
 
 read_options(options, 'copy_subtitle')
 
+local function is_win_os()
+  return package.config:sub(1,1) == '\\'
+end
+
 local function copy_subtitle(prop)
 
   local result = mp.get_property(prop)
 
   if result ~= '' and result ~= nil then
 
-    mp.commandv(
-      'run', '/usr/bin/env', 'bash', '-c',
-      string.format("<<<'%s' LANG=en_US.UTF-8 %s", result:gsub("'", "'\\''"), options.clipboard_command)
-    )
+    if is_win_os() then
+      mp.commandv('run', 'powershell', '-NoProfile', '-command', 'Set-Clipboard', '"' .. result:gsub('[$"`]', '`%1') .. '"')
+    else
+      mp.commandv(
+        'run', '/usr/bin/env', 'bash', '-c',
+        string.format("<<<'%s' LANG=en_US.UTF-8 %s", result:gsub("'", "'\\''"), options.clipboard_command)
+      )
+    end
 
     if options.console_message == true then
       if options.console_message_print_copied == true then
