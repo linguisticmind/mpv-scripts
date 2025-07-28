@@ -28,7 +28,7 @@ local options = {
   clipboard_command = 'xclip -rmlastnl -selection clipboard',
 }
 
-read_options(options, 'copy_subtitle')
+read_options(options, 'copy-timestamp')
 
 local function copy_timestamp(arg)
 
