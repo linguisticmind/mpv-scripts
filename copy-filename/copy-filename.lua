@@ -16,7 +16,7 @@
 
 -- Video tutorial: https://youtu.be/SSL9wm2l5SQ&t=14m25s
 
--- version: 0.1.1
+-- version: 0.1.2
 
 require('mp.options')
 
@@ -28,7 +28,7 @@ local options = {
   clipboard_command = 'xclip -rmlastnl -selection clipboard',
 }
 
-read_options(options, 'copy_subtitle')
+read_options(options, 'copy_filename')
 
 local function copy_filename(arg)
 
