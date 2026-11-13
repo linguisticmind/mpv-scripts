@@ -16,7 +16,7 @@
 
 -- Video tutorial: https://youtu.be/spf0cU3P3SI&t=1m53s
 
--- version: 0.1.0
+-- version: 0.1.1
 
 require('mp.options')
 
@@ -72,11 +72,21 @@ mp.add_key_binding(
   end
 )
 
+--- @param point 'start' | 'end'
+local function get_sub_point(point)
+  local sub_point = mp.get_property_native('sub-' .. point)
+  if sub_point then
+    local sub_delay = mp.get_property_native('sub-delay')
+    return sub_point + sub_delay
+  end
+  return sub_point
+end
+
 mp.add_key_binding(
   'Alt+L', 'ab-loop-set-sub',
   function()
-    local sub_start = mp.get_property_native('sub-start')
-    local sub_end = mp.get_property_native('sub-end')
+    local sub_start = get_sub_point('start')
+    local sub_end = get_sub_point('end')
     if sub_start and sub_end then
       mp.set_property_native('ab-loop-a', sub_start)
       mp.set_property_native('ab-loop-b', sub_end)
@@ -96,7 +106,7 @@ mp.add_key_binding(
 mp.add_key_binding(
   'Alt+:', 'ab-loop-set-a-sub',
   function()
-    local sub_start = mp.get_property_native('sub-start')
+    local sub_start = get_sub_point('start')
     if sub_start then
       mp.set_property_native('ab-loop-a', sub_start)
       print_message(
@@ -115,7 +125,7 @@ mp.add_key_binding(
 mp.add_key_binding(
   'Alt+"', 'ab-loop-set-b-sub',
   function()
-    local sub_end = mp.get_property_native('sub-end')
+    local sub_end = get_sub_point('end')
     if sub_end then
       mp.set_property_native('ab-loop-b', sub_end)
       print_message(
